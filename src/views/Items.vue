@@ -62,11 +62,11 @@ export default {
   data() {
     return {
       items: [
-        {name: "item1", imgSrc: "/img/item-img3.e81a2fe2.png", price: 20, add: false, id: 0},
-        {name: "item2", imgSrc: "/img/item-img4.292d8f7c.png", price: 30, add: false, id: 1},
-        {name: "item3", imgSrc: "/img/item-img5.1e8ccf82.png", price: 40, add: false, id: 2},
-        {name: "item4", imgSrc: "/img/item-img6.32c2628b.png", price: 50, add: false, id: 3},
-        {name: "item5", imgSrc: "/img/item-img7.96114222.png", price: 60, add: false, id: 4},
+        {name: "item1", imgSrc: require("../assets/items-images/item-img3.png"), price: 20, add: false, id: 0},
+        {name: "item2", imgSrc: require("../assets/items-images/item-img4.png"), price: 30, add: false, id: 1},
+        {name: "item3", imgSrc: require("../assets/items-images/item-img5.png"), price: 40, add: false, id: 2},
+        {name: "item4", imgSrc: require("../assets/items-images/item-img6.png"), price: 50, add: false, id: 3},
+        {name: "item5", imgSrc: require("../assets/items-images/item-img7.png"), price: 60, add: false, id: 4},
       ],
       favItems: [],
       favColorIcon: true,
